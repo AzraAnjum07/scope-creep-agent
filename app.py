@@ -125,7 +125,7 @@ st.markdown(
 # ---------------------------------------------------------------------------
 
 @st.cache_resource
-def get_clients():
+def get_llm():
     return LLM() 
 
 
