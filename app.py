@@ -126,10 +126,11 @@ st.markdown(
 
 @st.cache_resource
 def get_clients():
-    return LLM(), ProjectMemory()
+    return LLM() 
 
 
-llm, memory = get_clients()
+llm=get_llm()
+memory = ProjectMemory()
 
 
 # ---------------------------------------------------------------------------
